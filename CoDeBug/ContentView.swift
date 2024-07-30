@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            Text("CoDeBug")
+        NavigationLink(destination: Lessons().navigationBarBackButtonHidden(true)) {
+            Text("Go to")
+            
+            
+        }
     }
 }
 

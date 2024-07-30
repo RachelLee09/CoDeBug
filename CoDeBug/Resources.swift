@@ -9,7 +9,12 @@ import SwiftUI
 
 struct Resources: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Resources")
+            Text("Coding opportunities near you:")
+            Text("Websites to practice code:")
+            Text("Coding in real life:")
+        }
     }
 }
 
