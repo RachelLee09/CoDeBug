@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD30EA512C5964410063C81A /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA502C5964410063C81A /* Resources.swift */; };
-		BD30EA532C5964EE0063C81A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA522C5964EE0063C81A /* Home.swift */; };
 		BD30EA552C5965010063C81A /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA542C5965010063C81A /* Lessons.swift */; };
 		BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */; };
 		BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138482C584E3D004A4DD1 /* ContentView.swift */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		BD30EA502C5964410063C81A /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
-		BD30EA522C5964EE0063C81A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BD30EA542C5965010063C81A /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		BD6138432C584E3D004A4DD1 /* CoDeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoDeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDeBugApp.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			children = (
 				BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */,
 				BD6138482C584E3D004A4DD1 /* ContentView.swift */,
-				BD30EA522C5964EE0063C81A /* Home.swift */,
 				BD30EA542C5965010063C81A /* Lessons.swift */,
 				BD30EA502C5964410063C81A /* Resources.swift */,
 				BD61384A2C584E3E004A4DD1 /* Assets.xcassets */,
@@ -269,7 +266,6 @@
 				BD30EA512C5964410063C81A /* Resources.swift in Sources */,
 				BD30EA552C5965010063C81A /* Lessons.swift in Sources */,
 				BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */,
-				BD30EA532C5964EE0063C81A /* Home.swift in Sources */,
 				BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
