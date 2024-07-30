@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BD30EA512C5964410063C81A /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA502C5964410063C81A /* Resources.swift */; };
 		BD30EA552C5965010063C81A /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA542C5965010063C81A /* Lessons.swift */; };
+		BD30EA5A2C59685A0063C81A /* Monolisa Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD30EA592C59685A0063C81A /* Monolisa Font.ttf */; };
+		BD30EA5C2C596ECE0063C81A /* KodeWithKlossy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */; };
+		BD30EA5E2C596F520063C81A /* GirlsWhoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */; };
 		BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */; };
 		BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138482C584E3D004A4DD1 /* ContentView.swift */; };
 		BD61384B2C584E3E004A4DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61384A2C584E3E004A4DD1 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		BD30EA502C5964410063C81A /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		BD30EA542C5965010063C81A /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
+		BD30EA582C59685A0063C81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Monolisa Font.ttf"; sourceTree = "<group>"; };
+		BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodeWithKlossy.swift; sourceTree = "<group>"; };
+		BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsWhoCode.swift; sourceTree = "<group>"; };
 		BD6138432C584E3D004A4DD1 /* CoDeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoDeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDeBugApp.swift; sourceTree = "<group>"; };
 		BD6138482C584E3D004A4DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				BD6138482C584E3D004A4DD1 /* ContentView.swift */,
 				BD30EA542C5965010063C81A /* Lessons.swift */,
 				BD30EA502C5964410063C81A /* Resources.swift */,
+				BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */,
+				BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */,
+				BD30EA592C59685A0063C81A /* Monolisa Font.ttf */,
 				BD61384A2C584E3E004A4DD1 /* Assets.xcassets */,
 				BD61384C2C584E3E004A4DD1 /* Preview Content */,
 			);
@@ -237,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD30EA5A2C59685A0063C81A /* Monolisa Font.ttf in Resources */,
 				BD61384E2C584E3E004A4DD1 /* Preview Assets.xcassets in Resources */,
 				BD61384B2C584E3E004A4DD1 /* Assets.xcassets in Resources */,
 			);
@@ -266,6 +276,8 @@
 				BD30EA512C5964410063C81A /* Resources.swift in Sources */,
 				BD30EA552C5965010063C81A /* Lessons.swift in Sources */,
 				BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */,
+				BD30EA5E2C596F520063C81A /* GirlsWhoCode.swift in Sources */,
+				BD30EA5C2C596ECE0063C81A /* KodeWithKlossy.swift in Sources */,
 				BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,18 @@
 			targetProxy = BD61385E2C584E3E004A4DD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD30EA592C59685A0063C81A /* Monolisa Font.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD30EA582C59685A0063C81A /* Base */,
+			);
+			name = "Monolisa Font.ttf";
+			path = ../../../Downloads;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BD6138652C584E3E004A4DD1 /* Debug */ = {
