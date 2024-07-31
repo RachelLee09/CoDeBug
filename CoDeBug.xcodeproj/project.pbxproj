@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD30EA512C5964410063C81A /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA502C5964410063C81A /* Resources.swift */; };
-		BD30EA532C5964EE0063C81A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA522C5964EE0063C81A /* Home.swift */; };
 		BD30EA552C5965010063C81A /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA542C5965010063C81A /* Lessons.swift */; };
 		BD30EA5A2C59685A0063C81A /* Monolisa Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD30EA592C59685A0063C81A /* Monolisa Font.ttf */; };
 		BD30EA5C2C596ECE0063C81A /* KodeWithKlossy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		BD30EA502C5964410063C81A /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
-		BD30EA522C5964EE0063C81A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BD30EA542C5965010063C81A /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		BD30EA582C59685A0063C81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Monolisa Font.ttf"; sourceTree = "<group>"; };
 		BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodeWithKlossy.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			children = (
 				BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */,
 				BD6138482C584E3D004A4DD1 /* ContentView.swift */,
-				BD30EA522C5964EE0063C81A /* Home.swift */,
 				BD30EA542C5965010063C81A /* Lessons.swift */,
 				BD30EA502C5964410063C81A /* Resources.swift */,
 				BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */,
