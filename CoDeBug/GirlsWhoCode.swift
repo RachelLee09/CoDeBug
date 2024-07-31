@@ -9,11 +9,20 @@ import SwiftUI
 
 struct GirlsWhoCode: View {
     var body: some View {
-        VStack{
-            Text("Girls Who Code")
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+        ZStack{
+           Color(red: 0.901, green: 0.971, blue: 1.0)
+                .ignoresSafeArea()
+            VStack{
+                Text("Girls Who Code")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(red: 0.056, green: 0.613, blue: 0.565))
+                Text("MISSION: Close the gender gap in technology and alter the world's perception on the representation of a programmer.")
+                    .foregroundColor(Color(red: 0.056, green: 0.613, blue: 0.565))
+                    .multilineTextAlignment(.center)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

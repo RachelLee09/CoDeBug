@@ -9,11 +9,20 @@ import SwiftUI
 
 struct KodeWithKlossy: View {
     var body: some View {
-        VStack{
-            Text("Kode With Klossy")
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+        ZStack{
+            Color(red: 0.885, green: 0.996, blue: 0.027)
+                .ignoresSafeArea()
+            VStack{
+                Text("Kode With Klossy")
+                    .font(.largeTitle)
+                    .fontWeight(.black)
+                    .foregroundColor(Color(red: 0.003, green: 0.371, blue: 0.272))
+                Text("MISSION: Ensure young people everywhere have the opportunity to learn about technology and to achieve gender equity in economic opportunity.")
+                    .foregroundColor(Color(red: 0.003, green: 0.371, blue: 0.272))
+                    .multilineTextAlignment(.center)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
