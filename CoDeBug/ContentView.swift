@@ -19,12 +19,12 @@ struct ContentView: View {
             VStack {
                 Spacer()
                 Text("Welcome to")
-//                    .font(.custom("Andale Mono", size: 35))
+                    .font(.custom("Courier New", size: 35))
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hue: 0.547, saturation: 1.0, brightness: 1.0))
                 Text("CoDeBug")
-//                    .font(.custom("Andale Mono", size: 65))
+                    .font(.custom("Courier New", size: 65))
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.084, saturation: 0.331, brightness: 0.794))
@@ -52,14 +52,11 @@ struct ContentView: View {
                         Image("list")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50.0, height: 50.0)
+                            .frame(width: 60.0, height: 60.0)
                     }
                 }
                 
             }
-        }
-        NavigationLink(destination: Lessons().navigationBarBackButtonHidden(true)) {
-            Text("Go to")
         }
     }
 }
