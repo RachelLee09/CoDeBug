@@ -11,6 +11,10 @@
 		BD30EA552C5965010063C81A /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA542C5965010063C81A /* Lessons.swift */; };
 		BD30EA5C2C596ECE0063C81A /* KodeWithKlossy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */; };
 		BD30EA5E2C596F520063C81A /* GirlsWhoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */; };
+		BD4C3E2B2C5C27BD0038C3B6 /* Lesson1_Pt.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3E2A2C5C27BD0038C3B6 /* Lesson1_Pt.1.swift */; };
+		BD4C3E2D2C5C287F0038C3B6 /* Lesson1_Pt2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3E2C2C5C287F0038C3B6 /* Lesson1_Pt2.swift */; };
+		BD4C3E2F2C5C28D80038C3B6 /* PracQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3E2E2C5C28D80038C3B6 /* PracQs.swift */; };
+		BD4C3E312C5C33310038C3B6 /* QuizQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3E302C5C33310038C3B6 /* QuizQs.swift */; };
 		BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */; };
 		BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6138482C584E3D004A4DD1 /* ContentView.swift */; };
 		BD61384B2C584E3E004A4DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61384A2C584E3E004A4DD1 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 		BD30EA542C5965010063C81A /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodeWithKlossy.swift; sourceTree = "<group>"; };
 		BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsWhoCode.swift; sourceTree = "<group>"; };
+		BD4C3E2A2C5C27BD0038C3B6 /* Lesson1_Pt.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1_Pt.1.swift; sourceTree = "<group>"; };
+		BD4C3E2C2C5C287F0038C3B6 /* Lesson1_Pt2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1_Pt2.swift; sourceTree = "<group>"; };
+		BD4C3E2E2C5C28D80038C3B6 /* PracQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracQs.swift; sourceTree = "<group>"; };
+		BD4C3E302C5C33310038C3B6 /* QuizQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQs.swift; sourceTree = "<group>"; };
 		BD6138432C584E3D004A4DD1 /* CoDeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoDeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDeBugApp.swift; sourceTree = "<group>"; };
 		BD6138482C584E3D004A4DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +60,7 @@
 		BD61385D2C584E3E004A4DD1 /* CoDeBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoDeBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6138612C584E3E004A4DD1 /* CoDeBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDeBugUITests.swift; sourceTree = "<group>"; };
 		BD6138632C584E3E004A4DD1 /* CoDeBugUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDeBugUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8FED362C5C43080032BDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +111,14 @@
 		BD6138452C584E3D004A4DD1 /* CoDeBug */ = {
 			isa = PBXGroup;
 			children = (
+				BD8FED362C5C43080032BDB5 /* Info.plist */,
 				BD6138462C584E3D004A4DD1 /* CoDeBugApp.swift */,
 				BD6138482C584E3D004A4DD1 /* ContentView.swift */,
 				BD30EA542C5965010063C81A /* Lessons.swift */,
+				BD4C3E2A2C5C27BD0038C3B6 /* Lesson1_Pt.1.swift */,
+				BD4C3E2C2C5C287F0038C3B6 /* Lesson1_Pt2.swift */,
+				BD4C3E2E2C5C28D80038C3B6 /* PracQs.swift */,
+				BD4C3E302C5C33310038C3B6 /* QuizQs.swift */,
 				BD30EA502C5964410063C81A /* Resources.swift */,
 				BD30EA5B2C596ECE0063C81A /* KodeWithKlossy.swift */,
 				BD30EA5D2C596F520063C81A /* GirlsWhoCode.swift */,
@@ -270,10 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD30EA512C5964410063C81A /* Resources.swift in Sources */,
+				BD4C3E2B2C5C27BD0038C3B6 /* Lesson1_Pt.1.swift in Sources */,
+				BD4C3E312C5C33310038C3B6 /* QuizQs.swift in Sources */,
 				BD30EA552C5965010063C81A /* Lessons.swift in Sources */,
 				BD6138492C584E3D004A4DD1 /* ContentView.swift in Sources */,
 				BD30EA5E2C596F520063C81A /* GirlsWhoCode.swift in Sources */,
 				BD30EA5C2C596ECE0063C81A /* KodeWithKlossy.swift in Sources */,
+				BD4C3E2F2C5C28D80038C3B6 /* PracQs.swift in Sources */,
+				BD4C3E2D2C5C287F0038C3B6 /* Lesson1_Pt2.swift in Sources */,
 				BD6138472C584E3D004A4DD1 /* CoDeBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +459,9 @@
 				DEVELOPMENT_TEAM = KTSCLPA7H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoDeBug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.CoDeBug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RachLee.codebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,9 +488,9 @@
 				DEVELOPMENT_TEAM = KTSCLPA7H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoDeBug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.CoDeBug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RachLee.codebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
